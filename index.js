@@ -26,6 +26,7 @@ const listBelanjaan = function(){
   for(iterator = 0; iterator < dataBelanjaan.length; iterator++){
     arrTemp.push(dataBelanjaan[iterator].nama + " x " + dataBelanjaan[iterator].kuantitas);
   };
+  return arrTemp;
 };
 
 // boleh dimodifikasi bila ingin menggunakan deklarasi fungsi yang normal
